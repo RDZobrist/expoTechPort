@@ -1,0 +1,118 @@
+body {
+    background-color: #ffffff;
+}
+/*  ====================
+        NAVBAR
+    ===================
+      */
+
+#navbar {
+    background: #ffffff !important;
+    padding: 20px 40px;
+
+};
+#firstname-nav {
+    color: #939393 !important;
+    padding: 200px;
+}
+#lastname-nav {
+    color: #057cfc;
+};
+
+.navbar-nav .nav-item .nav-link {
+    color:#939393;
+    font-size: 40px;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #ff7575;
+    font-weight: bold;
+};
+a#portfolio-link-nav {
+    font-size: 24px;
+}
+
+/*  ================
+      catchphrase
+    ===============
+ */
+ h4.catchphrase-text {
+     color: #939393;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 80px;
+     font-size: 38px;
+     letter-spacing: 1px;
+ };
+ 
+/*  =====================
+      portfolio section
+    =====================
+ */
+ h4#portfolio-section-h4 {
+     color: #939393 !important;
+     font-size: 38px;
+     letter-spacing: 1px;
+ }
+hr#hr-line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #057cfc;
+}
+
+
+
+.flipcard {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 40px 80px;
+    perspective: 500px;
+    margin-top: 20px;
+  }
+  .flipcard.v:hover .front, .flipcard.v.flip .front{
+    transform: rotateX(180deg);
+  }
+  .flipcard.v:hover .back, .flipcard.v.flip .back{
+    transform: rotateX(0deg);
+  }
+  .flipcard.v .back{
+    transform: rotateX(-180deg);;
+    color: #ff7575;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+
+  }
+  .flipcard.h:hover .front, .flipcard.h.flip .front{
+    transform: rotateY(180deg);
+  }
+  .flipcard.h:hover .back, .flipcard.h.flip .back{
+    transform: rotateY(0deg);
+  }
+  .flipcard.h .back{
+    transform: rotateY(-180deg);
+    color: #ff7575;
+    background-color: #ffffff;
+
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .flipcard .front, .flipcard .back
+  {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+    color: #939393;
+    background-color: #ffffff;
+    padding: 10px;
+    backface-visibility: hidden;
+  }
+  div.front.text-center {
+      font-size: 24px;
+      font-weight: bold;
+
+  }
