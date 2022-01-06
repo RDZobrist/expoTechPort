@@ -82,7 +82,7 @@ hr#hr-line {
     color: #ff7575;
     background-color: #ffffff;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
 
   }
   .flipcard.h:hover .front, .flipcard.h.flip .front{
