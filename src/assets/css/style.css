@@ -99,6 +99,9 @@ hr#hr-line {
     font-weight: bold;
     font-size: 18px;
   }
+  .back {
+    margin: auto 25%;
+  }
   .flipcard .front, .flipcard .back
   {
     position:absolute;
