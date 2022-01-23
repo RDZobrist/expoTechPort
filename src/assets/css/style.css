@@ -65,8 +65,8 @@ hr#hr-line {
 
 .flipcard {
     position: relative;
-    width: 175px;
-    height: 175px;
+    width: 225px;
+    height: 225px;
     margin: auto 12.5%;
     perspective: 500px;
     margin-top: 20px;
@@ -95,11 +95,12 @@ hr#hr-line {
     transform: rotateY(-180deg);
     color: #ff7575;
     background-color: #ffffff;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 18px;
   }
   .back {
-    margin: auto 25%;
+    margin: 50px 25%;
   }
   .flipcard .front, .flipcard .back
   {
@@ -111,7 +112,7 @@ hr#hr-line {
     color: #939393;
     background-color: #ffffff;
     padding: 10px;
-    margin: auto 10px;
+    margin: 50px 10px;
     backface-visibility: hidden;
   }
   div.front.text-center {
